@@ -1,0 +1,326 @@
+:root {
+    --dark: #10181c;
+    --white: #ffffff;
+    --green: #17BB00;
+    --lightgray: #D7D7D7;
+    --border: 1px solid #2E5465;
+    --red: #D11101; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    touch-action: pan-x pan-y;
+}
+a {
+    text-decoration: none;
+    color: var(--white);
+   
+}
+h1, h2, h3, h4, h5 {
+    color: var(--white);;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 2rem 0;
+}
+p, ul, ol {
+    color: var(--lightgray);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 16px !important;
+    list-style-position: inside;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    font-size: 62.5%;
+    background-color: var(--dark);
+    min-width: 320px;
+}
+
+header {
+    display: flex;
+    padding: 2rem;
+    line-height: normal;
+    gap: 4px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #A6080E 0%, #D11101 100%);
+}
+.btn-app a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D2D2D;
+}
+.btn a:first-child {
+    padding: 1rem;
+    background-color: var(--green);
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.6rem;
+    margin-right: 1rem;
+}
+.btn a:last-child {
+    padding: 1rem;
+    background-color: #284755;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1.3rem;
+    font-weight: 700;
+    border-radius: 0.6rem;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.wrapper a {
+    text-decoration: none;
+    color: #facc01;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+#footer {
+    height: auto;
+    text-indent: 0;
+  }
+
+  #footer-wrapper {
+    width: 80%;
+    height: auto;
+    padding-bottom: 0px;
+    margin: 10rem auto;
+  }
+  #footer-wrapper > div:nth-child(2n) {
+    background-color:#1C2F38 !important;
+    padding: 20px 25px;
+    border-radius: 4px;
+  }
+  #footer-payments {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 15px;
+  }
+
+  #footer-payments img,
+  #footer-payments a img {
+    height: 25px;
+    
+  }
+  #footer-payments a {
+    height: 25px;
+  }
+  #footer-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    text-align: center;
+    overflow: hidden;
+    line-height: 1.5;
+    flex-wrap: wrap;
+  }
+
+  #footer-links a {
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    margin: 0 10px;
+    color: #D7D7D7;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+  }
+
+  #footer-links a:hover {
+    color: var(--white);
+  }
+
+  #social {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  #social .wrapper {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  #social .wrapper a {
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin: 0 20px;
+    text-indent: -9999px;
+    opacity: 0.5;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+
+  #social .wrapper a:hover {
+    opacity: 1;
+  }
+
+  #social .wrapper a span {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+
+  #social .wrapper .facebook span {
+    background: url(./img/social/facebook.svg)
+      no-repeat center center;
+    background-size: 12px !important;
+    background-color: var(--base-blue-04);
+    border-radius: 10px;
+  }
+
+ 
+
+  #social .wrapper .instagram span {
+    background: url(./img/social/instagram.svg)
+      no-repeat center center;
+    background-size: 18px !important;
+    background-color: var(--base-blue-04);
+    border-radius: 10px;
+  }
+
+
+  #social .wrapper .twitter span {
+    background: url(./img/social/twitter.svg)
+      no-repeat center center;
+    background-size: 18px !important;
+    background-color: var(--base-blue-04);
+    border-radius: 10px;
+  }
+  #social .wrapper .xLogo span {
+    background: url(./img/social/X_logo.svg)
+      no-repeat center center;
+    background-size: 18px !important;
+    background-color: var(--base-blue-04);
+    border-radius: 10px;
+  }
+ 
+
+
+
+  #social .wrapper .youtube span {
+    background: url(./img/social/youtube.svg)
+      no-repeat center center;
+    background-size: 18px !important;
+    background-color: var(--base-blue-04);
+    border-radius: 10px;
+  }
+
+
+
+  #authority {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    height: auto;
+    padding: 10px 0;
+    color: #666;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  #authority > img {
+    display: inline-block;
+    height: 40px;
+   
+  }
+
+  #authority > a {
+    display: inline-block;
+    height: 40px;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+  }
+
+  a:hover,
+  a:hover img {
+    opacity: 1 !important;
+  }
+
+  #authority > a img {
+    height: 40px !important;
+  }
+
+  #legal {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#D7D7D7;
+  }
+  #legal a {
+    color: #396F85;
+    text-decoration: none;
+  }
+  #footer-clubs {
+    display: flex;
+  }
+  #footer-clubs img {
+    margin: 20px auto;
+    width: 70%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    #authority > img {
+        display: inline-block;
+        max-height: 20px;
+        height: 100%;
+    }
+    #footer-payments {
+        flex-wrap: nowrap;
+       justify-content: unset;
+        overflow-x: scroll;
+        padding: 10px;
+    }
+    #social .wrapper a {
+        margin: 0 10px;
+    }
+    #footer-wrapper {
+  
+        margin: 5rem auto;
+    }
+  }
