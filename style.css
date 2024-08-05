@@ -3,7 +3,7 @@
     --white: #ffffff;
     --green: #17BB00;
     --lightgray: #D7D7D7;
-    --border: 1px solid #2E5465;
+    --border: 1px solid #2e54654d;
     --red: #D11101; 
 }
 
@@ -18,7 +18,15 @@ a {
     color: var(--white);
    
 }
-h1, h2, h3, h4, h5 {
+h1 {
+    margin: 100px 0;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 35px;
+    color: var(--white);;
+}
+h2, h3, h4, h5 {
     color: var(--white);;
     font-size: 24px;
     font-style: normal;
@@ -80,11 +88,11 @@ header {
     font-weight: 700;
     border-radius: 0.6rem;
 }
-.wrapper {
+.privacy-wrapper {
     width: 80%;
     margin: 0 auto;
 }
-.wrapper a {
+.privacy-wrapper a {
     text-decoration: none;
     color: #facc01;
     font-size: 18px;
@@ -101,7 +109,8 @@ header {
     width: 80%;
     height: auto;
     padding-bottom: 0px;
-    margin: 10rem auto;
+    margin: 5rem auto;
+    border-top: var(--border);
   }
   #footer-wrapper > div:nth-child(2n) {
     background-color:#1C2F38 !important;
@@ -116,7 +125,7 @@ header {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin: 30px 0;
     gap: 15px;
   }
 
@@ -300,11 +309,14 @@ header {
   }
   #footer-clubs img {
     margin: 20px auto;
-    width: 70%;
+    width: 100%;
     height: auto;
   }
 
   @media screen and (max-width: 768px) {
+    h1 {
+        margin: 50px 0;
+    }
     #authority > img {
         display: inline-block;
         max-height: 20px;
