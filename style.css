@@ -89,7 +89,7 @@ header {
     border-radius: 0.6rem;
 }
 .privacy-wrapper {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 .privacy-wrapper a {
@@ -106,7 +106,7 @@ header {
   }
 
   #footer-wrapper {
-    width: 80%;
+    width: 95%;
     height: auto;
     padding-bottom: 0px;
     margin: 5rem auto;
@@ -131,7 +131,7 @@ header {
 
   #footer-payments img,
   #footer-payments a img {
-    height: 25px;
+    height: 20px;
     
   }
   #footer-payments a {
