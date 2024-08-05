@@ -317,6 +317,9 @@ header {
     h1 {
         margin: 50px 0;
     }
+    .privacy-wrapper{
+        width: 90%;
+    }
     #authority > img {
         display: inline-block;
         max-height: 20px;
